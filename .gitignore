@@ -1,0 +1,14 @@
+# Lazy is fine to be most up to date
+lazy-lock.json
+# macOS Specific app
+raycast/
+#Misc
+tags
+test.sh
+.luarc.json
+nvim
+spell/
+
+#System Files
+.DS_Store
+
