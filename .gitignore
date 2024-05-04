@@ -6,7 +6,6 @@ raycast/
 tags
 test.sh
 .luarc.json
-nvim
 spell/
 
 #System Files
