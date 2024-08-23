@@ -2,6 +2,8 @@
 lazy-lock.json
 # macOS Specific app
 raycast/
+zed/
+aerospace/
 #Misc
 tags
 test.sh
