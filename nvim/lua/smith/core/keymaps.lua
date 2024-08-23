@@ -46,7 +46,7 @@ vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 -- vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
 -- Window splits
-vim.keymap.set('n', '<leader>wsv', '<C-w>v', { desc = '[W]indow [S]plit [V]ertically' }) 
+vim.keymap.set('n', '<leader>wsv', '<C-w>v', { desc = '[W]indow [S]plit [V]ertically' })
 vim.keymap.set('n', '<leader>wsh', '<C-w>s', { desc = '[W]indow [S]plit [H]orizontally' })
 vim.keymap.set('n', '<leader>wse', '<C-w>=', { desc = '[W]indow [S]plits made [E]qual' })
 vim.keymap.set('n', '<leader>wsc', '<cmd>close<CR>', { desc = '[W]indow [S]plit [C]lose' })

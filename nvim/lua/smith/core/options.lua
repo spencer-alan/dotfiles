@@ -8,7 +8,7 @@ local opt = vim.opt
 opt.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
-opt.relativenumber = false
+opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 opt.mouse = 'a'
@@ -78,3 +78,5 @@ opt.signcolumn = 'yes'
 -- Backspace enhanced
 opt.backspace = 'indent,eol,start'
 
+-- End of Buffer Characters
+opt.fillchars = { eob = ' ' }

@@ -15,6 +15,10 @@ return {
     end,
     formatters_by_ft = {
       lua = { 'stylua' },
+      -- go = { 'gofmt' },
+      javascript = { 'prettierd' },
+      typescript = { 'prettierd' },
+      html = { 'htmlbeautifier' },
       -- Conform can also run multiple formatters sequentially
       -- python = { "isort", "black" },
       --
