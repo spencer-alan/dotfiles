@@ -126,7 +126,7 @@ return {
       deno = {
         root_dir = require('lspconfig').util.root_pattern('deno.json', 'deno.jsonc'),
       },
-      tsserver = {
+      ts_ls = {
         root_dir = require('lspconfig').util.root_pattern 'tsconfig.json',
         single_file_support = false,
       },

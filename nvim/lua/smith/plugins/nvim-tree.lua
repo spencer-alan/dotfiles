@@ -45,7 +45,7 @@ return {
 
     -- set keymaps
     local keymap = vim.keymap
-    keymap.set('n', '<leader>te', '<cmd>NvimTreeToggle<CR>', { desc = '[T]ree [E]xplorer toggle' })
+    keymap.set('n', '\\', '<cmd>NvimTreeToggle<CR>', { desc = '[T]ree [E]xplorer toggle' })
     keymap.set('n', '<leader>tf', '<cmd>NvimTreeFindFileToggle<CR>', { desc = '[T]ree Explorer on [F]ile toggle' })
     keymap.set('n', '<leader>tc', '<cmd>NvimTreeCollapse<CR>', { desc = '[T]ree Explorer [C]ollapse' })
     keymap.set('n', '<leader>tr', '<cmd>NvimTreeRefresh<CR>', { desc = '[T]ree Explorer [R]efresh' })
