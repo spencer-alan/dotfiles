@@ -4,6 +4,8 @@ lazy-lock.json
 raycast/
 zed/
 aerospace/
+# Plugins for tmux, dont want submodules
+tmux/plugins
 #Misc
 tags
 test.sh
