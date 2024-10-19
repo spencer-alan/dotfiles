@@ -7,6 +7,8 @@ return {
       -- Oil will take over directory buffers (e.g. `vim .` or `:e src/`)
       -- Set to false if you want some other plugin (e.g. netrw) to open when you edit directories.
       default_file_explorer = true,
+      -- Watch the file system for changes and reload oil
+      watch_for_changes = true,
       -- Id is automatically added at the beginning, and name at the end
       -- See :help oil-columns
       columns = {
@@ -17,6 +19,7 @@ return {
       },
       keymaps = {
         ['<C-h>'] = false,
+        ['<C-l>'] = false,
       },
       view_options = {
         -- Show files and directories that start with "."

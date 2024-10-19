@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 
 local config = wezterm.config_builder()
 
-config.color_scheme = "Tokyo Night Storm"
+config.color_scheme = "Tokyo Night"
 config.force_reverse_video_cursor = true
 
 config.font = wezterm.font("DankMono Nerd Font")
